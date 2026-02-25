@@ -1,13 +1,13 @@
 package model.exceptions;
 
-public class InvalidDateException extends Exception {
+public class DomainException extends Exception {
 
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-
-	public InvalidDateException(String msg) {
+	
+	public DomainException(String msg) {
 		super(msg);
 	}
 }
